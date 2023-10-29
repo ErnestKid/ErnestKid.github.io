@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="og:url" content="https://ernestkid.gay">
+    <meta name="og:site_name" content="ernestkid.gay">
+    <meta name="og:locale" content="en_US">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErnestKid</title>
+</head>
+<body>
+
+    <header>
+            <img src="images/icon.png" width="130">
+            <div>
+                <h1>ErnestKid.gay</h1>
+                <h2>the website of ernestkid</h2>
+            </div>
+    </header>
+
+    <script>
+        function copy(tag) {
+          var copyFrom = document.createElement('textarea');
+          document.body.appendChild(copyFrom);
+          copyFrom.value = tag.innerText;
+          copyFrom.select();
+          document.execCommand('copy');
+          document.body.removeChild(copyFrom);
+          alert('Copied ' + copyFrom.value + ' to your clipboard.');
+        }
+    </script>
+
+    <main>
+        <div class="box2">
+            <h2>Welcome to my website!</h2>
+                <p>Guessing you want to learn more about me so here's my about me!</p>
+            <br>
+            <h2>About me</h2>
+                <p>My name is Ernest. I just go by he/him. I'm autistic, BUT I'm barely on the spectrum.
+                    Nothing much to his name. I really love technology like servers,
+                    computers, IT, software, etc. I also have interests in cooking, 
+                    and engineering, but I have yet to explore them. If you want to talk to me,
+                    feel free to with my socials! I promise I won't bite.</p>
+            <br>
+            <h2>My socials!</h2>
+                <img src="images/icons/discord.png" alt="Discord" title="Discord"> <a onclick="copy(this)"><b>ErnestKid#1266</b></a>
+            <br>
+            <p>I will be adding more to this website!</p>
+            </div>  
+    </main>
+</body>
+</html>
