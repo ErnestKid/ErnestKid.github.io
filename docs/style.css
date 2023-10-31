@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     align-content: center;
     text-align: center;
-    font-size: 12pt;
     background-image: url("images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,7 +27,7 @@ body {
   }
 
   p{
-    font-size: 14px;
+    font-size: 16px;
   }
   .box2 img {
     width: 16px;
@@ -46,6 +45,9 @@ body {
   }
   a:hover {
     text-decoration: underline;
+  }
+  a:visited {
+    color: lightpurple;
   }
 
 .box2 {
