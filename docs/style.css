@@ -1,57 +1,94 @@
+
 body {
-    background-color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
-    align-content: center;
-    text-align: center;
-    background-image: url("images/background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-  }
-  header {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  align-content: center;
+  text-align: center;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+  background-size: cover;
+  color: white;
+  margin: 0%;
+}
 
-  h1 {
-    font-size: 36pt;
-    margin: 0;
-  }
-  img {
-    vertical-align: middle;
-  }
+header {
+  opacity: 0.9;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgb(255, 255, 255);
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: rgb(85, 85, 85);
 
-  p{
-    font-size: 16px;
-  }
-  .box2 img {
-    width: 16px;
-  }
-  img + a {
-    word-break: break-all;
-  }  
+}
 
-  a {
-    cursor: pointer;
-  }
-  a:active {
-    text-decoration: underline;
-    color: aqua;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  a:visited {
-    color: lightpurple;
-  }
+button {
+  background-color: rgb(61, 61, 61);
+  margin: 12px;
+  white-space: nowrap;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border: #464646 3px solid;
+}
+
+button:hover {
+  border: #2e2e2e 3px solid;
+}
+
+.scrollbuttons {
+  display: flex;
+  margin-left: auto; 
+}
+
+h1 {
+  font-size: 24pt;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+p {
+  font-size: 16px;
+}
+
+.box2 img {
+  width: 16px;
+}
+
+img+a {
+  word-break: break-all;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: underline;
+  color: aqua;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: lightpurple;
+}
 
 .box2 {
-  margin: 20px auto 10px auto;
+  margin: 50px auto 10px auto;
   text-align: middle;
   width: auto;
   max-width: 768px;
@@ -60,4 +97,4 @@ body {
   border-radius: 16px;
   border: 1px solid rgb(131, 130, 130);
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.021);
-  }
+}
