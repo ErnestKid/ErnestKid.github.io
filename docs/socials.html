@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/png" href="images\icon.png">
-        <link rel="stylesheet" href="style.css">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="og:url" content="https://ernestkid.me/socials">
-        <meta name="og:site_name" content="ernestkid.me">
-        <meta name="og:locale" content="en_US">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ErnestKid: Socials!</title>
 
-        <header>
-            <img src="images/icon.png", onclick="location.href = '/index';" width="50">
-            <div>
-                <h1>ErnestKid.me</h1>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images\icon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="og:url" content="https://ernestkid.me/socials">
+    <meta name="og:site_name" content="ernestkid.me">
+    <meta name="og:locale" content="en_US">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErnestKid: Socials!</title>
+
+    <header>
+        <img src="images/icon.png" width="50">
+        <div>
+            <h1>ErnestKid.me</h1>
+        </div>
+        <div class="scrollbuttons">
+            <button class="buttons" href = "/">Home!</button>
+            <button class="buttons" href = "/aboutme">More about me</button>
+            <button class="buttons" href = "/projects">Projects!</button>
+            <button class="buttons" href = "/socials">Socials</button>
+            <button class="buttons" onclick="window.open('https://github.com/ErnestKid/ErnestKid.github.io', '_blank')">GitHub Repository</button>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="box2">
+            <h2>My socials!</h2>
+            <div class="socialsdiv">
+                <img src="images/icons/discord.png" alt="Discord" title="Discord"> <a
+                onclick="copy(this)"><b>ernestkid_</b></a>
+            <img src="images/icons/steam.png" alt="Steam" title="Steam"> <a onclick="copy(this)"><b>ErnestKid</b></a>
+            <img src="images/icons/telegram.png" alt="Telegram" title="Telegram"> <a
+                onclick="copy(this)"><b>ErnestKid1</b></a>
+            <img src="images/icons/twitter.png" alt="Twitter" title="Twitter"> <a onclick="location.href = 'https://twitter.com/ErnestKid_'"><b>ErnestKid_</b></a>
             </div>
-            <div class="scrollbuttons">
-                <button class="buttons" onclick="location.href = 'projects ';">Projects!</button>
-                <button class="buttons" onclick="location.href = 'aboutme ';">More about me</button>
-                <button class="buttons" onclick="location.href = 'socials ';">Socials</button>
-                <button class="buttons", onclick="location.href = 'https://github.com/ErnestKid/ErnestKid.github.io';">GitHub Repository</button>
-            </div>
-    
-    
-        </header>
-    </head>
+            
+        </div>
+    </main>
+</head>
+
 </html>
